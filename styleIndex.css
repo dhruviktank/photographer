@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    z-index: 2;
+}
+.box1{
+    position: relative;
+    left: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    width: 44vw;
+    height: 600px;
+    background-color: white;
+    z-index: 10;
+}
+h2,h3{
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+h2{
+    margin-top: 120px;
+    letter-spacing: 3px;
+}
+h3{
+    margin-top: 45px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 80px;
+}
+.btn{
+    background-color: transparent;
+    color: black;
+    margin: 0 45%;
+    margin-top: 100px;
+    font-size: 20px;
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: color .3s ease;
+}
+.btn:hover{
+    color:rgb(128, 128, 128);
+}
+.image-box{
+    position: absolute;
+    width: 64vw;
+    height: 800px;
+    right: 0;
+    z-index: 5;
+}
+.image-box img{
+    z-index: 6;
+    filter: grayscale(100%) brightness(100%);
+    object-position: 0 2%;
+}

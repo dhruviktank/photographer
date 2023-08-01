@@ -1,0 +1,68 @@
+
+.img1{
+    background: url("/johnmichael/images/portraits.jpg");
+}
+.img2{
+    background: url("/johnmichael/images/maternity.jpg");
+}
+.img3{
+    background: url("/johnmichael/images/family.jpg");
+}
+.img4{
+    background: url("/johnmichael/images/commercial.jpg");
+}
+.image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .8s ease;
+}
+.image:hover{
+    transform: scale(1.05);
+    filter: opacity(0.2);
+}
+.image-container{
+    position: relative;
+    width: 90%;
+    height: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.heading{
+    text-align: center;
+}
+.gallery{
+    position: relative;
+}
+.text{
+    user-select: none;
+    pointer-events: none;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    font-size: 45px;
+    transition: opacity .3s ease;
+}
+.image-container:hover .text{
+    opacity: 1;
+}
+.heading span{
+    font-size: 70px;
+    letter-spacing: 8px;
+}
+.heading{
+    padding-top: 90px;
+}
+.dropbtn{
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+.nav > ul > li > a:hover {
+    color: rgb(128, 128, 128);
+}

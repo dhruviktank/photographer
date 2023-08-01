@@ -1,0 +1,57 @@
+#service{
+    color: rgb(128, 128, 128);
+}
+.service-container{
+    color: white;
+    text-align: center;
+}
+.service{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-image{
+    position: relative;
+    left: 30px;
+}
+.service-image img{
+    width: 530px;
+    height: 467px;
+    object-fit: cover;
+    object-position: 5% 5%;
+}
+.service-box{
+    position: relative;
+    left: -30px;
+    padding: 70px;
+    width: 330px;
+    height: 233.25px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.service-text1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+.service-text2{
+    line-height: 30px;
+}
+.service-box button{
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: 1px solid black;
+}
+.heading span{
+    font-size: 75px;
+    letter-spacing: 8px;
+}
+.heading{
+    margin-top: 80px;
+}
