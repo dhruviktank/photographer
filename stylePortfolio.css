@@ -45,7 +45,8 @@
     z-index: 5;
     position: absolute;
     top: 50%;
-    left: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 45px;
     transition: opacity .3s ease;
 }
