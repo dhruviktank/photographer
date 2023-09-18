@@ -1,15 +1,15 @@
 
 .img1{
-    background: url("/johnmichael/images/portraits.jpg");
+    background: url("images/portraits.jpg");
 }
 .img2{
-    background: url("/johnmichael/images/maternity.jpg");
+    background: url("images/maternity.jpg");
 }
 .img3{
-    background: url("/johnmichael/images/family.jpg");
+    background: url("/images/family.jpg");
 }
 .img4{
-    background: url("/johnmichael/images/commercial.jpg");
+    background: url("/images/commercial.jpg");
 }
 .image{
     width: 100%;
